@@ -35,6 +35,15 @@ header {
   align-items: center;
 }
 
+.sidebar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  border: solid 3px black;
+
+}
 h1, h2 {
   color: #fff;
   padding: 0 10%;
