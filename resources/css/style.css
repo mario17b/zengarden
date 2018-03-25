@@ -41,7 +41,6 @@ header {
   justify-content: center;
   align-items: center;
   width: 40%;
-  border: solid 3px black;
   height: 16rem;
   padding: 1.4rem 0 4.4rem 0;
   : 50%;
@@ -52,6 +51,14 @@ header {
   flex-direction: row;
   width: 5rem;
   height: 5rem;
+}
+
+.viewall {
+  font-size: 2rem;
+  font-family: 'verdemoderna';
+  color: #fff;
+  border: 2px #fff solid;
+  padding: 1rem;
 }
 h1, h2 {
   color: #fff;
@@ -73,3 +80,26 @@ h2 {
 }
 
 /* First Section */
+
+#zen-preamble {
+  float: left;
+  clear: left;
+  width: 66%;
+  padding: 1rem 5% 1rem 10%;
+}
+
+h3 {
+  margin: 2em 0 0 0;
+  margin-top: 2rem;
+  color: #2e484c;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 1.8rem;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+#zen-preamble p {
+  font-size: 1em;
+  margin: 0.75em 0;
+  line-height: 2;
+}
